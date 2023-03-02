@@ -1,6 +1,6 @@
 {
   "name": "rn-vnplus-module-attempt2",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Test npm package for VNPlus",
   "homepage": "https://github.com/bong-vn/rn-vnplus-native-module#readme",
   "main": "lib/index.js",
