@@ -1,12 +1,28 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import { SafeAreaView } from 'react-native'
+import RNVNPlus2Module, {
+  ArchiveIcon,
+  AtIcon,
+  AttachmentDiagonal,
+  AttachmentVertical,
+  Counter,
+} from 'rn-vnplus-module-attempt2'
+import 'react-native-gesture-handler'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNVNPlus2Module)
   })
 
-  return <Counter />
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <ArchiveIcon />
+      <AtIcon />
+      <AttachmentDiagonal />
+      <AttachmentVertical/>
+      <Counter label='Hello Worlddddd' />
+    </SafeAreaView>
+  )
 }
 
 export default App
